@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-      <FileManager {...seedFolders[0]} />
+      <FileManager {...seedFolders[0].structure[0]} />
     </div>
   )
 }
