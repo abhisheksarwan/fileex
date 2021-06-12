@@ -2,3 +2,9 @@
     background-color: #1c1a25;
     flex:0.75;
 }
+
+.fileManager_folders {
+    display: flex;
+    color: white;
+    flex-flow: row wrap;
+}
