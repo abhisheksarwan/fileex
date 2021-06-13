@@ -7,6 +7,9 @@
 .sidebar_option_name {
     color: white;
     margin-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .sidebar_option:hover {

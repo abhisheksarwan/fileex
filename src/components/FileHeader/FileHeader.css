@@ -1,0 +1,37 @@
+.fileHeader {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.fileHeader_left {
+    display: flex;
+    color: white;
+    align-items: center;
+    flex:0.5;
+}
+
+.fileHeader_left > * {  
+    margin-right:20px;
+}
+
+.fileHeader_right {
+    display: flex;
+    color: #72707b;
+    justify-content: space-between;
+    align-items: center;
+    flex:0.5;
+}
+
+.fileHeader_right_left > * {
+    margin-right: 5px;
+}
+
+.fileHeader_right_middle {
+    display:flex;
+}
+
+.fileHeader_right_middle > * {
+    margin-right:15px;
+}

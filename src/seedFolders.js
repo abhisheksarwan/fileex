@@ -110,7 +110,7 @@ export default [
               id: "iclouddrive",
               icon: "cloud",
               iconType:"s",
-              iconColor:"#316ba3",
+              iconColor:"#5397b3",
               subFolder: [
               { name: "New Folder 1" },
               { name: "New Folder 2" },
@@ -122,7 +122,7 @@ export default [
         id: "documents",
         icon: "file",
         iconType:"s",
-        iconColor:"#316ba3",
+        iconColor:"#5397b3",
         subFolder: [
         { name: "New Folder 1" },
         { name: "New Folder 2" },
@@ -134,7 +134,7 @@ export default [
         id: "desktop",
         icon: "desktop",
         iconType:"s",
-        iconColor:"#316ba3",
+        iconColor:"#5397b3",
         subFolder: [
         { name: "New Folder 1" },
         { name: "New Folder 2" },
