@@ -25,10 +25,10 @@ const FileHeader = () => {
                     </div>
 
                     <i class="material-icons" style={{color:"#393742"}}>ios_share</i>
-                    <i class="material-icons" style={{color:"#393742"}}>local_offer</i>
+                    <i class="material-icons-outlined flip" style={{color:"#393742"}}>local_offer</i>
 
                     <div>
-                        <i class="material-icons">pending</i>
+                        <i class="material-icons-outlined">pending</i>
                         <i class="material-icons">expand_more</i>
                     </div>
 

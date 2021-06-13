@@ -5,8 +5,8 @@ import SidebarFolder from '../SidebarFolder/SidebarFolder';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 
 function Sidebar() {
-    const sidebarFolders = seedFolders.map(folder => (
-        <SidebarFolder {...folder} />
+    const sidebarFolders = seedFolders.map((folder,index) => (
+        <SidebarFolder {...folder} index={index} />
     ))
     return (
         <div className="sidebar">

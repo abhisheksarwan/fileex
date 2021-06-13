@@ -5,8 +5,8 @@ import FileHeader from '../FileHeader/FileHeader';
 
 
 const FileManager = (props) => {
-    const folders = props.subFolder.map(folder => (
-        <Folder name={folder.name} />
+    const folders = props.folder.subFolder.map(folders => (
+        <Folder name={folders.name} />
     ));
     return (
         <div className="fileManager">
