@@ -1,0 +1,12 @@
+.notfound {
+    background-color: #1c1a25;
+    flex:0.75;
+}
+
+.notfound_content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:gray;
+    height: 80vh;
+}

@@ -10,7 +10,7 @@ const FileManager = (props) => {
     ));
     return (
         <div className="fileManager">
-            <FileHeader />
+            <FileHeader folderName={props.folder.folderName} />
                 <div className="fileManager_folders">
                     {folders}
                 </div>
