@@ -1,6 +1,7 @@
 import React from 'react';
 import './FileManager.css';
-import Folder from '../../components/Folder/Folder';
+import Folder from '../Folder/Folder';
+import FileHeader from '../FileHeader/FileHeader';
 
 
 const FileManager = (props) => {
@@ -9,7 +10,7 @@ const FileManager = (props) => {
     ));
     return (
         <div className="fileManager">
-            <h1>Header</h1>
+            <FileHeader />
                 <div className="fileManager_folders">
                     {folders}
                 </div>
