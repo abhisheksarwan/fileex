@@ -35,3 +35,7 @@
 .fileHeader_right_middle > * {
     margin-right:15px;
 }
+
+.flip {
+    transform: scaleX(-1);
+}

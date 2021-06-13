@@ -8,10 +8,10 @@ export default [
               iconType:"s",
               iconColor:"#316ba3",
               subFolder: [
-              { name: "New Folder 1" },
-              { name: "New Folder 2" },
-              { name: "New Folder 3" },
-              { name: "New Folder 4" } ]
+              { name: "Could" },
+              { name: "Not" },
+              { name: "Add" },
+              { name: "Much" } ]
         },
         { folderName: "Recents",
         id: "recents",
@@ -19,10 +19,10 @@ export default [
         iconType:"r",
         iconColor:"#316ba3",
         subFolder: [
-        { name: "New Folder 1" },
-        { name: "New Folder 2" },
-        { name: "New Folder 3" },
-        { name: "New Folder 4" } ]
+        { name: "But" },
+        { name: "I" },
+        { name: "Promise" },
+        { name: "I" } ]
         },
         { folderName: "Applications",
         id: "applications",
@@ -30,10 +30,10 @@ export default [
         iconType:"s",
         iconColor:"#316ba3",
         subFolder: [
-        { name: "New Folder 1" },
-        { name: "New Folder 2" },
-        { name: "New Folder 3" },
-        { name: "New Folder 4" } ]
+        { name: "Will" },
+        { name: "do" },
+        { name: "better" },
+        { name: "you" } ]
         },
         { folderName: "Downloads",
         id: "downloads",
@@ -41,10 +41,10 @@ export default [
         iconType:"r",
         iconColor:"#316ba3",
         subFolder: [
-        { name: "New Folder 1" },
-        { name: "New Folder 2" },
-        { name: "New Folder 3" },
-        { name: "New Folder 4" } ]
+        { name: "just" },
+        { name: "need" },
+        { name: "to" },
+        { name: "believe" } ]
         },
         { folderName: "Pictures",
         id: "pictures",
@@ -52,10 +52,10 @@ export default [
         iconType:"s",
         iconColor:"#316ba3",
         subFolder: [
-        { name: "New Folder 1" },
-        { name: "New Folder 2" },
-        { name: "New Folder 3" },
-        { name: "New Folder 4" } ]
+        { name: "in" },
+        { name: "me" },
+        { name: "because" },
+        { name: "thats" } ]
         },
         { folderName: "kirananto",
         id: "user",
@@ -63,10 +63,10 @@ export default [
         iconType:"s",
         iconColor:"#316ba3",
         subFolder: [
-        { name: "New Folder 1" },
-        { name: "New Folder 2" },
-        { name: "New Folder 3" },
-        { name: "New Folder 4" } ]
+        { name: "what" },
+        { name: "LEADERS" },
+        { name: "do" },
+        { name: "they" } ]
         },
         { folderName: "Music",
         id: "music",
@@ -74,10 +74,10 @@ export default [
         iconType:"s",
         iconColor:"#316ba3",
         subFolder: [
-        { name: "New Folder 1" },
-        { name: "New Folder 2" },
-        { name: "New Folder 3" },
-        { name: "New Folder 4" } ]
+        { name: "create" },
+        { name: "more" },
+        { name: "leaders" },
+        { name: "thanks" } ]
         },
         { folderName: "Movies",
         id: "movies",
@@ -85,8 +85,8 @@ export default [
         iconType:"s",
         iconColor:"#316ba3",
         subFolder: [
-        { name: "New Folder 1" },
-        { name: "New Folder 2" },
+        { name: "a" },
+        { name: "lot" },
         { name: "New Folder 3" },
         { name: "New Folder 4" } ]
         },
