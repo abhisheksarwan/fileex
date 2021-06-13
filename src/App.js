@@ -2,7 +2,7 @@ import './App.css';
 import Sidebar from './components/Sidebar/Sidebar';
 import { Route, Switch, Redirect } from "react-router-dom";
 import FileManager from './components/FileManager/FileManager';
-import NotFound from './components/NotFound/NotFound';
+import NotFound from './components/NotFound/NotFound'
 import seedFolders from './seedFolders';
 
 function App() {
