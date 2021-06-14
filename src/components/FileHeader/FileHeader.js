@@ -3,13 +3,13 @@ import './FileHeader.css';
 
 
 
-const FileHeader = () => {
+const FileHeader = (props) => {
     return (
         <div className="fileHeader">
             <div className="fileHeader_left">
                 <i class="material-icons">chevron_left</i>
                 <i class="material-icons" style={{color:"gray"}}>chevron_right</i>
-                <p>Music</p>
+                <h4>{props.folderName}</h4>
             </div>
 
             <div className="fileHeader_right">

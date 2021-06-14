@@ -1,6 +1,6 @@
 .fileManager {
-    background-color: #1c1a25;
-    flex:0.75;
+    background-color: #1c1a25! important;
+    flex:0.75! important;
 }
 
 .fileManager_folders {
@@ -8,3 +8,4 @@
     color: white;
     flex-flow: row wrap;
 }
+
