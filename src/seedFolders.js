@@ -96,10 +96,10 @@ export default [
         iconType:"s",
         iconColor:"#316ba3",
         subFolder: [
-        { name: "New Folder 1" },
-        { name: "New Folder 2" },
-        { name: "New Folder 3" },
-        { name: "New Folder 4" } ]
+        { name: "1" },
+        { name: "2" },
+        { name: "3" },
+        { name: "4" } ]
         }
     ]
 },
@@ -112,10 +112,10 @@ export default [
               iconType:"s",
               iconColor:"#5397b3",
               subFolder: [
-              { name: "New Folder 1" },
-              { name: "New Folder 2" },
-              { name: "New Folder 3" },
-              { name: "New Folder 4" }
+              { name: "5" },
+              { name: "6" },
+              { name: "7" },
+              { name: "8" }
             ]
         },
         { folderName: "Documents",
@@ -124,10 +124,10 @@ export default [
         iconType:"s",
         iconColor:"#5397b3",
         subFolder: [
-        { name: "New Folder 1" },
-        { name: "New Folder 2" },
-        { name: "New Folder 3" },
-        { name: "New Folder 4" }
+        { name: "9" },
+        { name: "10" },
+        { name: "11" },
+        { name: "12" }
       ]
         },
         { folderName: "Desktop",
@@ -136,10 +136,10 @@ export default [
         iconType:"s",
         iconColor:"#5397b3",
         subFolder: [
-        { name: "New Folder 1" },
-        { name: "New Folder 2" },
-        { name: "New Folder 3" },
-        { name: "New Folder 4" }
+        { name: "13" },
+        { name: "14" },
+        { name: "15"},
+        { name: "16" }
       ]
         }
      ]

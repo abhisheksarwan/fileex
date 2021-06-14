@@ -5,6 +5,7 @@ import FileHeader from '../FileHeader/FileHeader';
 import NotFound from '../NotFound/NotFound';
 
 
+
 const FileManager = (props) => {
 
         if(props.folder) {
@@ -13,11 +14,11 @@ const FileManager = (props) => {
             ));
             return (
                 <div className="fileManager">
-                <FileHeader folderName={props.folder.folderName} />
+                 <FileHeader folderName={props.folder.folderName} />
                     <div className="fileManager_folders">
                         {folders}
                     </div>
-            </div>
+                </div>
             )
         } else {
             return (

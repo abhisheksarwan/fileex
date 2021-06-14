@@ -18,7 +18,7 @@ function App() {
       <Sidebar />
       <Switch>
         <Route exact path="/"> <Redirect to="/0/user"/> </Route>
-        <Route exact path="/:rootId/:id" render={(routeProps) => <FileManager folder={findFolder(routeProps.match.params.rootId,routeProps.match.params.id)} /> }/>
+        <Route exact path="/:rootId/:id" render={(routeProps) => <FileManager folder={findFolder(routeProps.match.params.rootId,routeProps.match.params.id)} root={routeProps.match.params.rootId} /> }/>
         <Route path='*' exact render={() => <NotFound/>} />
       </Switch>
     </div>

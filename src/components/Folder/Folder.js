@@ -5,11 +5,10 @@ import './Folder.css';
 
 const Folder = (props) => {
 
-    const copyCoupon = (e, data) => {
-        var coupon = data.copy
-        navigator.clipboard.writeText(coupon)
-        alert(`Coupon code ${coupon} copied to your clipboard`)
-      }
+    const deleteItem = (e, data) => {
+        var id = data.id
+        props.handleClick(id);
+}
 
     return (
         <>
@@ -22,17 +21,17 @@ const Folder = (props) => {
         </ContextMenuTrigger>
 
         <ContextMenu id="contextmenu">
-             <MenuItem data={{copy: 'MI50'}} onClick={copyCoupon}>
+             <MenuItem>
                 <span>Copy</span>
              </MenuItem>
              <MenuItem>
                 <span>Move</span>
              </MenuItem>
-             <MenuItem>
+             <MenuItem data={{id:props.name}} onClick={deleteItem}>
                 <span>Delete</span>
              </MenuItem>
         </ContextMenu>
-        
+
       </>
     )
 }
